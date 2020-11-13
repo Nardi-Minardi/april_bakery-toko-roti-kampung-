@@ -1,0 +1,66 @@
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b33630;
+    height: 200px;
+}
+
+.copyright {
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.map-wrapper {
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #fff;
+    width: 200px;
+    margin-left: 5px;
+    padding: 5px
+}
+
+.map-wrapper p {
+    text-align: center;
+}
+
+.map-wrapper img {
+    width: 30px;
+    height: 30px;
+    color: #fff !important;
+    position: relative;
+    left: 20px;
+}
+
+.social-icon{
+    color: #fff !important;
+    width: 200px;
+}
+
+.social-icon img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    object-fit: contain;
+    cursor: pointer;
+    box-shadow: 1px 3px 1px #242424
+}
+
+/* layar handphone */
+@media screen and (max-width: 960px) {
+  .footer-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b33630;
+    height: 100%;
+}
+}

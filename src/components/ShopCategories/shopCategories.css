@@ -1,0 +1,16 @@
+.categories-wrapper {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: auto;
+}
+
+@media screen and (max-width: 576px){
+    .categories-wrapper {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

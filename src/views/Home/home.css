@@ -1,0 +1,22 @@
+.home-wrapper {
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+    background: #FFF4F4;
+}
+
+.home-wrapper h5 {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;;
+}
+
+.card-paginate-wrapper {
+    background-color: #fff;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+}

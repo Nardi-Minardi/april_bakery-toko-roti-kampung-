@@ -1,0 +1,50 @@
+.shop-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top: 80px;
+    position: relative;
+}
+
+.shop-wrapper h4 {
+    text-align: center;
+}
+
+.card-wrapper {
+    display: flex;
+    flex: 1;
+    width: 60vw;
+    flex-wrap: wrap;
+    background-color: #fff;
+    flex-direction: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* tablet */
+@media screen and (max-width: 768px){
+
+}
+
+/* handphone */
+@media screen and (max-width: 576px){
+    .shop-wrapper {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        margin-top: 80px;
+        position: relative;
+    }
+
+    .card-wrapper {
+        display: flex;
+        flex: 1;
+        width: auto;
+        flex-wrap: wrap;
+        background-color: #fff;
+        flex-direction: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px
+    }
+}

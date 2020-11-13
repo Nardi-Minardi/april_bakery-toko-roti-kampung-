@@ -1,0 +1,19 @@
+html,
+body,
+#root {
+    height: auto;
+    
+}
+
+body {
+    margin: auto;
+    padding: auto;
+    font-family: 'Karla', sans-serif; /* googlefont */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
